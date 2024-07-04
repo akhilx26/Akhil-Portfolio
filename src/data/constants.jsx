@@ -77,6 +77,11 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
       {
+        name: "MariaDB",
+        image:
+          "https://mariadb.com/wp-content/uploads/2019/11/mariadb-logo-vert_blue-transparent.png",
+      },
+      {
         name: "Spring Boot",
         image:
           "https://dz2cdn1.dzone.com/storage/temp/12434118-spring-boot-logo.png",
@@ -179,10 +184,18 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKOJIemocHxvwgXO3uuTOhxLaE24tWJDU1m_7zdQ6mcw&s",
+    img: "https://i.redd.it/verizons-logo-over-the-years-v0-vqzups8vs49d1.jpg?width=2560&format=pjpg&auto=webp&s=d3ae8ed2bd281f96055beac2f694d923380f438f",
+    role: "Engr I - Software Development",
+    company: "Verizon Communications Inc.",
+    date: "July 2024 - Present",
+    // skills: [],
+  },
+  {
+    id: 1,
+    img: "https://i.redd.it/verizons-logo-over-the-years-v0-vqzups8vs49d1.jpg?width=2560&format=pjpg&auto=webp&s=d3ae8ed2bd281f96055beac2f694d923380f438f",
     role: "Software Development Intern - Full Stack",
     company: "Verizon Communications Inc.",
-    date: "February 2024 - Present",
+    date: "February 2024 - July 2024",
     skills: [
       "Java",
       "Spring Boot",
@@ -191,10 +204,13 @@ export const experiences = [
       "Typescript",
       "Figma",
       "Postman",
+      "RESTful APIs",
+      "UI/UX",
+      "Git"
     ],
   },
   {
-    id: 1,
+    id: 2,
     img: "https://alcovex.studio/assets/alcovex-logo.png",
     role: "Quality Analyst Intern",
     company: "AlcoveX Product Studio, Visakhapatnam",
@@ -214,7 +230,7 @@ export const experiences = [
     icon: "https://img.freepik.com/premium-vector/certificate-icon-with-ribbon-medal-flat-design_115464-65.jpg",
   },
   {
-    id: 2,
+    id: 3,
     img: "https://media1-production-mightynetworks.imgix.net/asset/23564598/isac_logo_400_px_Proxy.png?ixlib=rails-4.2.0&auto=format&w=512&h=512&fit=crop&impolicy=Avatar",
     role: "Research Intern",
     company: "Information Sharing and Analysis Center (ISAC)",
